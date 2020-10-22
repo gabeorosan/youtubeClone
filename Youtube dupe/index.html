@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <button class="header-icon hamburger">
+                <img src="images/menu.svg" class="hamburger-icon">
+            </button>
+            <button class="youtube-button">
+                <img class="header-icon" id="youtube-icon" src="images/youtube.svg" alt="">
+                <span>YouTube</span>
+            </button>
+            
+        </div>
+        
+            <div class="search-bar">
+                <input class="search-input" type="text" placeholder="Search">
+                <div class="magnifying-glass">
+                    <img src="images/magnify.svg" alt="">
+                </div>
+            </div>
+
+        
+        <div class="header-right">
+
+            <div class="header-right">
+                    <img class="header-icon" src="images/video-plus.svg" alt="">
+                    <img class="header-icon" src="images/apps.svg" alt="">
+                    <img class="header-icon" src="images/dots-vertical.svg" alt="">
+                    <button class="header-icon sign-in-btn">
+                        <img src="images/account-circle.svg" alt="">
+                        <p>SIGN IN</p> 
+                    </button>
+    
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+
+            <div class="left-container">
+                <iframe class="video" src="https://www.youtube.com/embed/b9F5X8-v9Ug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                <div class="video-info">
+                    <p class="title">
+                        備忘録<br>
+                    </p>
+                    <div class="subtitle-stuff">
+
+                        <p class="views-date">8,348 回視聴 • 2018/07/10</p>
+                        <div class="video-options">
+
+                            <div class="like-dislike-count">
+                                <button class="like-btn">
+                
+                                    <img src="images/thumb-up.svg" alt="">
+                                    <p>105</p>
+                                </button>
+                                <button class="dislike-btn">
+                
+                                    <img src="images/thumb-down.svg" alt="">
+                                    <p>4</p>
+                                </button>
+                            </div>
+                            <button class="share-button">
+                
+                                <img src="images/share.svg" alt="">
+                                <span>共有</span>
+                            </button>
+                            <button class="save-button">
+                                <img src="images/playlist-plus.svg" alt="">
+                                <span>保存</span>
+                            </button>
+                            <button class="elipses-button">
+
+                                <img class="elipses" src="images/dots-horizontal.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+                    <img class="channel-icon" src="//yt3.ggpht.com/iqlXcyKdwI1kzM-CBcowZbXxh2vbXbq3wdlmPy0uC0n4ZTy6n5342Bdovfs-bEgVq4BaiBys7Hk=s48-c-k-c0xffffffff-no-nd-rj">
+                    <div class="description-info">
+                        <div class="channel-info">
+                            <h4>ヒグチアイ - トピック</h4>
+                            <p>チャンネル登録者数 1170人</p>
+                            <br>
+                        </div>
+                        <p class="description-text">
+                            Provided to YouTube by Teichiku Entertainment, Inc.
+                            <br><br>
+                            備忘録 · ヒグチアイ
+                        </p>
+                        <button class="see-more-btn">もっと 見る</button>
+                    </div>
+                    <button class="subscribe-button">チャネル登録</button>
+                </div>
+                <div class="comment-section">
+                    <div class="comment-section-header">
+                        <p class="num-comments">5 件のコメント</p>
+                        <button class="sort-by-button">
+                            <img src="images/sort-variant.svg" alt="">
+                            <span>並び替え</span>
+                        </button>
+                    </div>
+                    <div class="add-comment">
+                        <img class="profile-pic" src="//s.ytimg.com/yts/img/avatar_48-vfllY0UTT.png" alt="">
+                        <input class="comment-input"type="input" placeholder="公開コメントを入力">
+                    </div>
+    
+                </div>
+            </div>
+            <aside>
+                <div class="right-container">
+                    <div class="top-video other-video">
+                        <div class="top-video-header">
+                            <span class="top-video-label">次の動画</span>
+                            <div class="autoplay-label">
+                                <p class="autoplay-text"> 自動再生 </p>
+                                <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="top-video-container">
+                                <div class="top-video-content">
+                                    <div id="first-video" class="thumbnail">
+                                        <img class="thumbnail-img" src="https://i.ytimg.com/vi/INgWNYx4i70/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBDrAEjAYHLn_FLUbFJsfD_XaXHqQ" alt="">                </button>
+                                        <div class="duration">
+                                            <button>3:42</button>
+                                        </div>
+                                        <div class="thumbnail-img-overlay">
+                                            <button class="btn">
+                                            <img src="images/clock.svg" alt="watch later" />
+                                            </button>
+                                            <button class="btn">
+                                            <img src="images/playlist-play.svg" alt="add to queue" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="top-video-info">
+                                        <p class="other-video-title">ヒグチアイ (Ai Higuchi) / 前線 (Zensen)</p>
+                                        <span class="other-video-creator">TeichikuMusicChannel</span>
+                                        <span>648,799 回視聴 • 1年前</span>
+                                    </div>
+                                    <button class="vertical-dots-button">
+                                        <img class="vertical-dots" src="images/dots-vertical.svg" alt="">
+                                    </button>
+                                </div>
+                        </div>
+                            <div class="next-top-video">
+                                    <div class="top-video-content">
+                                        <div class="thumbnail">
+                                            <img class="thumbnail-img" src="https://i.ytimg.com/vi/INgWNYx4i70/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBDrAEjAYHLn_FLUbFJsfD_XaXHqQ" alt="">                </button>
+                                            <div class="duration">
+                                                <button>3:42</button>
+                                            </div>
+                                            <div class="thumbnail-img-overlay">
+                                                <button class="btn">
+                                                <img src="images/clock.svg" alt="watch later" />
+                                                </button>
+                                                <button class="btn">
+                                                <img src="images/playlist-play.svg" alt="add to queue" />
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="top-video-info">
+                                            <p class="other-video-title">ヒグチアイ (Ai Higuchi) / 前線 (Zensen)</p>
+                                            <span class="other-video-creator">TeichikuMusicChannel</span>
+                                            <span>648,799 回視聴 • 1年前</span>
+                                        </div>
+                                        <button class="vertical-dots-button">
+                                            <img class="vertical-dots" src="images/dots-vertical.svg" alt="">
+                                        </button>
+                                    </div>
+                            </div>
+                        <div class="other-video-content">
+
+                            <div class="top-video-content">
+                                <div class="thumbnail">
+                                    <img class="thumbnail-img" src="https://i.ytimg.com/vi/INgWNYx4i70/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBDrAEjAYHLn_FLUbFJsfD_XaXHqQ" alt="">                </button>
+                                    <div class="duration">
+                                        <button>3:42</button>
+                                    </div>
+                                    <div class="thumbnail-img-overlay">
+                                        <button class="btn">
+                                        <img src="images/clock.svg" alt="watch later" />
+                                        </button>
+                                        <button class="btn">
+                                        <img src="images/playlist-play.svg" alt="add to queue" />
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="top-video-info">
+                                    <p class="other-video-title">ヒグチアイ (Ai Higuchi) / 前線 (Zensen)</p>
+                                    <span class="other-video-creator">TeichikuMusicChannel</span>
+                                    <span>648,799 回視聴 • 1年前</span>
+                                </div>
+                                <button class="vertical-dots-button">
+                                    <img class="vertical-dots" src="images/dots-vertical.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="other-video-content">
+
+                            <div class="top-video-content">
+                                <div class="thumbnail">
+                                    <img class="thumbnail-img" src="https://i.ytimg.com/vi/INgWNYx4i70/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBDrAEjAYHLn_FLUbFJsfD_XaXHqQ" alt="">                </button>
+                                    <div class="duration">
+                                        <button>3:42</button>
+                                    </div>
+                                    <div class="thumbnail-img-overlay">
+                                        <button class="btn">
+                                        <img src="images/clock.svg" alt="watch later" />
+                                        </button>
+                                        <button class="btn">
+                                        <img src="images/playlist-play.svg" alt="add to queue" />
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="top-video-info">
+                                    <p class="other-video-title">ヒグチアイ (Ai Higuchi) / 前線 (Zensen)</p>
+                                    <span class="other-video-creator">TeichikuMusicChannel</span>
+                                    <span>648,799 回視聴 • 1年前</span>
+                                </div>
+                                <button class="vertical-dots-button">
+                                    <img class="vertical-dots" src="images/dots-vertical.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="other-video-content">
+
+                            <div class="top-video-content">
+                                <div class="thumbnail">
+                                    <img class="thumbnail-img" src="https://i.ytimg.com/vi/INgWNYx4i70/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBDrAEjAYHLn_FLUbFJsfD_XaXHqQ" alt="">                </button>
+                                    <div class="duration">
+                                        <button>3:42</button>
+                                    </div>
+                                    <div class="thumbnail-img-overlay">
+                                        <button class="btn">
+                                        <img src="images/clock.svg" alt="watch later" />
+                                        </button>
+                                        <button class="btn">
+                                        <img src="images/playlist-play.svg" alt="add to queue" />
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="top-video-info">
+                                    <p class="other-video-title">ヒグチアイ (Ai Higuchi) / 前線 (Zensen)</p>
+                                    <span class="other-video-creator">TeichikuMusicChannel</span>
+                                    <span>648,799 回視聴 • 1年前</span>
+                                </div>
+                                <button class="vertical-dots-button">
+                                    <img class="vertical-dots" src="images/dots-vertical.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="other-video-content">
+
+                            <div class="top-video-content">
+                                <div class="thumbnail">
+                                    <img class="thumbnail-img" src="https://i.ytimg.com/vi/INgWNYx4i70/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBDrAEjAYHLn_FLUbFJsfD_XaXHqQ" alt="">                </button>
+                                    <div class="duration">
+                                        <button>3:42</button>
+                                    </div>
+                                    <div class="thumbnail-img-overlay">
+                                        <button class="btn">
+                                        <img src="images/clock.svg" alt="watch later" />
+                                        </button>
+                                        <button class="btn">
+                                        <img src="images/playlist-play.svg" alt="add to queue" />
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="top-video-info">
+                                    <p class="other-video-title">ヒグチアイ (Ai Higuchi) / 前線 (Zensen)</p>
+                                    <span class="other-video-creator">TeichikuMusicChannel</span>
+                                    <span>648,799 回視聴 • 1年前</span>
+                                </div>
+                                <button class="vertical-dots-button">
+                                    <img class="vertical-dots" src="images/dots-vertical.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="other-video-content">
+
+                            <div class="top-video-content">
+                                <div class="thumbnail">
+                                    <img class="thumbnail-img" src="https://i.ytimg.com/vi/INgWNYx4i70/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBDrAEjAYHLn_FLUbFJsfD_XaXHqQ" alt="">                </button>
+                                    <div class="duration">
+                                        <button>3:42</button>
+                                    </div>
+                                    <div class="thumbnail-img-overlay">
+                                        <button class="btn">
+                                        <img src="images/clock.svg" alt="watch later" />
+                                        </button>
+                                        <button class="btn">
+                                        <img src="images/playlist-play.svg" alt="add to queue" />
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="top-video-info">
+                                    <p class="other-video-title">ヒグチアイ (Ai Higuchi) / 前線 (Zensen)</p>
+                                    <span class="other-video-creator">TeichikuMusicChannel</span>
+                                    <span>648,799 回視聴 • 1年前</span>
+                                </div>
+                                <button class="vertical-dots-button">
+                                    <img class="vertical-dots" src="images/dots-vertical.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        
+                       
+                    </div>
+
+                    
+                </div>
+            </aside>
+            
+            
+        </div>
+    </main>
+</body>
+</html>
